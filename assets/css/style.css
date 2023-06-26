@@ -10,16 +10,20 @@
 }
 
 .container {
-    max-width: 1140px;
+    max-width: 1320px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 12px;
     padding-right: 12px;
 }
 
+.padding_left {
+    padding-left: 8px;
+}
 
 
-.algin_center {
+
+.algin_item_center {
     align-items: center;
 }
 
@@ -187,15 +191,21 @@ header {
 }
 
 .ic1 {
+    color: #666666;
     padding-top: 12px;
     padding-bottom: 17px;
 
 }
 
 .ic3 {
+    color: #666666;
     padding-top: 12px;
     padding-bottom: 17px;
 
+}
+
+.mumbai {
+    color: #666666;
 }
 
 .pt_30 {
@@ -205,11 +215,8 @@ header {
 }
 
 .btn {
-    color: red
+    color: white
 }
-
-
-
 
 
 @media (max-width:992px) {
@@ -364,6 +371,7 @@ input[type="checkbox"]:checked+ul {
 }
 
 .event {
+    margin-top: 10px;
     color: white;
     color: #2C49FE;
     font-size: 30px;
@@ -374,7 +382,7 @@ input[type="checkbox"]:checked+ul {
 
 .free {
     color: #01C8FF;
-    font-size: 3opx;
+    font-size: 30px;
     font-family: Poppins;
     font-weight: 700;
     line-height: 135%;
@@ -410,6 +418,7 @@ input[type="checkbox"]:checked+ul {
 }
 
 .pfooter {
+    max-width: 100%;
     color: #FFF;
     font-size: 14px;
     font-family: Poppins;
